@@ -55,8 +55,16 @@
             {
                 Console.WriteLine("Checking book...");
                 k++;
-            } while (k < 3); 
+            } while (k < 3);
             #endregion
+
+            #region 7. Using the same books array, use a foreach loop to print every book title.
+            foreach (string b in books)
+            {
+                Console.WriteLine(b);
+            } 
+            #endregion
+
         }
     }
 }
