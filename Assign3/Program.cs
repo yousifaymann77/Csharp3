@@ -45,10 +45,18 @@
             {
                 Console.WriteLine($"{books[j]}");
                 j++;
-            } 
+            }
             #endregion
 
 
+            #region 6. Write a do-while loop that prints "Checking book..." exactly 3 times.
+            int k = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                k++;
+            } while (k < 3); 
+            #endregion
         }
     }
 }
