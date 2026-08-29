@@ -62,6 +62,17 @@
             foreach (string b in books)
             {
                 Console.WriteLine(b);
+            }
+            #endregion
+
+            #region 8. Using the same books array, loop through it and print each title, but stop completely (break) once you reach "Refactoring".
+            for (int l = 0; l < books.Length; l++)
+            {
+                if (books[l] == "Refactoring")
+                {
+                    break;
+                }
+                Console.WriteLine(books[l]);
             } 
             #endregion
 
