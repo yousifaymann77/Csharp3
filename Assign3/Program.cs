@@ -73,8 +73,20 @@
                     break;
                 }
                 Console.WriteLine(books[l]);
+            }
+            #endregion
+
+            #region 9. Using the same books array, print every title except "The Pragmatic Programmer" (skip it with continue, don't stop the loop).
+            for (int l = 0; l < books.Length; l++)
+            {
+                if (books[l] == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+                Console.WriteLine(books[l]);
             } 
             #endregion
+
 
         }
     }
